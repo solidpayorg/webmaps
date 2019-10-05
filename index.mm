@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="make your own!" POSITION="right" ID="ID_1389208206" CREATED="1570293607657" MODIFIED="1570294749709">
 <icon BUILTIN="wizard"/>
 <edge COLOR="#ff0000"/>
@@ -93,6 +93,22 @@
 <node TEXT="star this repo" POSITION="left" ID="ID_634574866" CREATED="1570294548787" MODIFIED="1570294809542" LINK="https://github.com/solidpayorg/webmaps/">
 <icon BUILTIN="bookmark"/>
 <edge COLOR="#0000ff"/>
+</node>
+<node TEXT="examples" POSITION="left" ID="ID_428021122" CREATED="1570295118138" MODIFIED="1570295119666">
+<edge COLOR="#00ff00"/>
+<node ID="ID_1055482545" CREATED="1570295130322" MODIFIED="1570295130322" LINK="https://lightning.money/"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightning.money/">https://lightning.money/</a> 
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </map>

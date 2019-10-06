@@ -67,15 +67,22 @@
 <node TEXT="make your own!" POSITION="right" ID="ID_1389208206" CREATED="1570293607657" MODIFIED="1570294749709">
 <icon BUILTIN="wizard"/>
 <edge COLOR="#ff0000"/>
-<node TEXT="fork this repo" ID="ID_1738668143" CREATED="1570293615063" MODIFIED="1570294585310" LINK="https://github.com/solidpayorg/webmaps/"/>
-<node TEXT="on the command line" ID="ID_1188995541" CREATED="1570294688300" MODIFIED="1570294694753">
+<node TEXT="fork this repo" ID="ID_1738668143" CREATED="1570293615063" MODIFIED="1570385431199" LINK="https://github.com/solidpayorg/webmaps/">
+<icon BUILTIN="full-1"/>
+</node>
+<node TEXT="on the command line" ID="ID_1188995541" CREATED="1570294688300" MODIFIED="1570385435773">
+<icon BUILTIN="full-2"/>
 <node TEXT="clone your fork" ID="ID_653799488" CREATED="1570294695677" MODIFIED="1570294700683"/>
 </node>
-<node TEXT="open the index.mm file with freeplane" ID="ID_1013629200" CREATED="1570293620249" MODIFIED="1570294718226">
+<node TEXT="open the index.mm file with freeplane" ID="ID_1013629200" CREATED="1570293620249" MODIFIED="1570385439727">
+<icon BUILTIN="full-3"/>
 <node TEXT="get freeplane!" ID="ID_1320208052" CREATED="1570294588057" MODIFIED="1570294616385" LINK="https://www.freeplane.org/wiki/index.php/Home"/>
 </node>
-<node TEXT="start editing!" ID="ID_1410176299" CREATED="1570294727092" MODIFIED="1570294732762"/>
-<node TEXT="export to html" ID="ID_278465196" CREATED="1570293629843" MODIFIED="1570293640540">
+<node TEXT="start editing!" ID="ID_1410176299" CREATED="1570294727092" MODIFIED="1570385444177">
+<icon BUILTIN="full-4"/>
+</node>
+<node TEXT="export to html" ID="ID_278465196" CREATED="1570293629843" MODIFIED="1570385449064">
+<icon BUILTIN="full-5"/>
 <node TEXT="1. file menu" ID="ID_347519982" CREATED="1570294621891" MODIFIED="1570385383055">
 <icon BUILTIN="full-1"/>
 </node>
@@ -86,11 +93,13 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node TEXT="one the command line run" ID="ID_668125997" CREATED="1570293641632" MODIFIED="1570294766779">
+<node TEXT="one the command line run" ID="ID_668125997" CREATED="1570293641632" MODIFIED="1570385453495">
+<icon BUILTIN="full-6"/>
 <node TEXT="bin/process.html" ID="ID_417353516" CREATED="1570293651983" MODIFIED="1570293659194"/>
 <node TEXT="bin/deploy" ID="ID_1316516546" CREATED="1570293660875" MODIFIED="1570293664489"/>
 </node>
-<node TEXT="you are done!" ID="ID_1463249056" CREATED="1570293683863" MODIFIED="1570293686496">
+<node TEXT="you are done!" ID="ID_1463249056" CREATED="1570293683863" MODIFIED="1570385457988">
+<icon BUILTIN="full-7"/>
 <node TEXT="test your webmap!" ID="ID_1342426050" CREATED="1570293666284" MODIFIED="1570293681404">
 <node TEXT="it will be at &lt;username&gt;.github.io/webmaps" ID="ID_791049591" CREATED="1570294771137" MODIFIED="1570294799091"/>
 </node>

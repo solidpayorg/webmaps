@@ -63,6 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="0" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="JavsScript docs" POSITION="right" ID="ID_860759774" CREATED="1570476239530" MODIFIED="1570476247812" LINK="https://melvincarvalho.github.io/JavaScript/">
+<edge COLOR="#0000ff"/>
+</node>
+<node TEXT="lightning network" POSITION="right" ID="ID_1422352560" CREATED="1570476250357" MODIFIED="1570476268981" LINK="https://lightning.money/">
+<edge COLOR="#00ff00"/>
+</node>
 </node>
 </map>

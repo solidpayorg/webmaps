@@ -109,7 +109,8 @@
 <icon BUILTIN="bookmark"/>
 <edge COLOR="#0000ff"/>
 </node>
-<node TEXT="examples" POSITION="left" ID="ID_428021122" CREATED="1570295118138" MODIFIED="1570295119666">
+<node TEXT="examples" POSITION="left" ID="ID_428021122" CREATED="1570295118138" MODIFIED="1570448748245">
+<icon BUILTIN="button_ok"/>
 <edge COLOR="#00ff00"/>
 <node ID="ID_1055482545" CREATED="1570295130322" MODIFIED="1570295130322" LINK="https://lightning.money/"><richcontent TYPE="NODE">
 

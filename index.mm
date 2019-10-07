@@ -122,9 +122,9 @@
     <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightning.money/">https://lightning.money/</a> 
   </body>
 </html>
-
 </richcontent>
 </node>
+<node TEXT="more" ID="ID_1185474668" CREATED="1570475388941" MODIFIED="1570475395867" LINK="examples/index.mm"/>
 </node>
 </node>
 </map>

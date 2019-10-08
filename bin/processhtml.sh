@@ -16,7 +16,7 @@ do
     do
       #echo "$ID"
       HREF=$(grep "\"$ID" "$FILE" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 
-      2>&1 echo $HREF | grep nodecontent | grep border-width > /dev/null
+      2>&1 echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size:83%;"><a href="' > /dev/null
       #echo $?
       if [[ $? -eq 1 ]]
       then

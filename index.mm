@@ -77,6 +77,7 @@
 <node TEXT="open the index.mm file with freeplane" ID="ID_1013629200" CREATED="1570293620249" MODIFIED="1570385439727">
 <icon BUILTIN="full-3"/>
 <node TEXT="get freeplane!" ID="ID_1320208052" CREATED="1570294588057" MODIFIED="1570294616385" LINK="https://www.freeplane.org/wiki/index.php/Home"/>
+<node TEXT="snap" ID="ID_783749861" CREATED="1570901355425" MODIFIED="1570901363157" LINK="https://snapcraft.io/freeplane-mindmapping"/>
 </node>
 <node TEXT="start editing!" ID="ID_1410176299" CREATED="1570294727092" MODIFIED="1570385444177">
 <icon BUILTIN="full-4"/>

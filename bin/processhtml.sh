@@ -3,7 +3,9 @@
 #export DEFAULT_FILE="./index.html"
 #export FILE=${1:-$DEFAULT_FILE}
 
-for FILE in $(find . -name '*.html') 
+shopt -s globstar
+
+for FILE in **/*.html 
 do
 
     sed 's/\.mm"/.html"/g' "$FILE"  | sed 's/\.png" a/.svg" a/g' | sed 's/\ilink.svg/ilink.png/g' > /tmp/$$
@@ -14,17 +16,28 @@ do
 
     for ID in $(grep 'href=..FMID' "$FILE" | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
     do
-      #echo "$ID"
       HREF=$(grep "\"$ID" "$FILE" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 
-      2>&1 echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size:83%;"><a href="' > /dev/null
-      #echo $?
+       echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size'  >/dev/null 2>&1
+
       if [[ $? -eq 1 ]]
       then
+        echo file: $FILE
         echo $ID
         echo $HREF
         sed "s,#$ID,$HREF," "$FILE" > /tmp/$$
         mv /tmp/$$ "$FILE"
       fi
+
+
+      # 2>&1 echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size:83%;"><a href="' > /dev/null
+      # #echo $?
+      # if [[ $? -eq 1 ]]
+      # then
+      #   echo $ID
+      #   echo $HREF
+      #   sed "s,#$ID,$HREF," "$FILE" > /tmp/$$
+      #   mv /tmp/$$ "$FILE"
+      # fi
       
     done
 

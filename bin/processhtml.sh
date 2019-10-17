@@ -8,14 +8,24 @@ shopt -s globstar
 for FILE in **/*.html 
 do
 
-    sed 's/\.mm"/.html"/g' "$FILE"  | sed 's/\.png" a/.svg" a/g' | sed 's/\ilink.svg/ilink.png/g' > /tmp/$$
+    2>&1 grep 'processhtml.sh' "$FILE" > /dev/null
+    if [[ $? -eq 0 ]]
+    then
+      echo "continue"
+      continue
+    fi
+
+
+    sed 's/\.mm"/.html"/g' "$FILE"  | sed 's/\.png" a/.svg" a/g' | sed 's/\ilink.svg/ilink.png/g' | sed 's/freeplane2html.xsl/processhtml.sh/' > /tmp/$$
 
     mv /tmp/$$ "$FILE"
+
 
     IDS=$(grep 'href=..FMID' "$FILE" | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
 
     for ID in $(grep 'href=..FMID' "$FILE" | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
     do
+    
       HREF=$(grep "\"$ID" "$FILE" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 
        echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size'  >/dev/null 2>&1
 

@@ -31,6 +31,8 @@ var done = node.createChild(-1)
 done.icons.add('button_ok')
 done.text = 'done'
 done.setLeft(true)
+done.style.textColorCode = '#00B439'
+done.style.font.size = 14
 
 var later = node.createChild('later')
 later.icons.add('prepare')

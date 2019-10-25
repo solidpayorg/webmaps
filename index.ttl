@@ -1,0 +1,35 @@
+<#ID_1389208206> <urn:string:@_TEXT> """Make your own!""" .
+<#ID_1738668143> <urn:string:@_TEXT> """fork this repo""" .
+<#ID_1738668143> <urn:string:child> <ID_1738668143> .
+<#ID_1188995541> <urn:string:@_TEXT> """on the command line""" .
+<#ID_1188995541> <urn:string:child> <ID_1188995541> .
+<#ID_1013629200> <urn:string:@_TEXT> """open the index.mm file with freeplane""" .
+<#ID_1013629200> <urn:string:child> <ID_1013629200> .
+<#ID_1320208052> <urn:string:@_TEXT> """get freeplane!""" .
+<#ID_1320208052> <urn:string:child> <ID_1320208052> .
+<#ID_783749861> <urn:string:@_TEXT> """snap""" .
+<#ID_783749861> <urn:string:child> <ID_783749861> .
+<#ID_1410176299> <urn:string:@_TEXT> """start editing!""" .
+<#ID_1410176299> <urn:string:child> <ID_1410176299> .
+<#ID_278465196> <urn:string:@_TEXT> """export to html""" .
+<#ID_278465196> <urn:string:child> <ID_278465196> .
+<#ID_347519982> <urn:string:@_TEXT> """1. file menu""" .
+<#ID_347519982> <urn:string:child> <ID_347519982> .
+<#ID_1364431254> <urn:string:@_TEXT> """2. click export map""" .
+<#ID_1364431254> <urn:string:child> <ID_1364431254> .
+<#ID_65834416> <urn:string:@_TEXT> """3. choose XHTML (clickable map)""" .
+<#ID_65834416> <urn:string:child> <ID_65834416> .
+<#ID_668125997> <urn:string:@_TEXT> """on the command line run""" .
+<#ID_668125997> <urn:string:child> <ID_668125997> .
+<#ID_417353516> <urn:string:@_TEXT> """bin/process.html""" .
+<#ID_417353516> <urn:string:child> <ID_417353516> .
+<#ID_1316516546> <urn:string:@_TEXT> """bin/deploy""" .
+<#ID_1316516546> <urn:string:child> <ID_1316516546> .
+<#ID_1463249056> <urn:string:@_TEXT> """you are done!""" .
+<#ID_1463249056> <urn:string:child> <ID_1463249056> .
+<#ID_634574866> <urn:string:@_TEXT> """star this repo""" .
+<#ID_428021122> <urn:string:@_TEXT> """examples""" .
+<#ID_1055482545> <urn:string:@_TEXT> """undefined""" .
+<#ID_1055482545> <urn:string:child> <ID_1055482545> .
+<#ID_1185474668> <urn:string:@_TEXT> """more""" .
+<#ID_1185474668> <urn:string:child> <ID_1185474668> .

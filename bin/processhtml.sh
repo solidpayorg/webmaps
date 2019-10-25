@@ -3,6 +3,8 @@
 #export DEFAULT_FILE="./index.html"
 #export FILE=${1:-$DEFAULT_FILE}
 
+export TMPFILE="/tmp/$$"
+
 shopt -s globstar
 
 for FILE in **/*.html 
@@ -16,10 +18,7 @@ do
     fi
 
 
-    sed 's/\.mm"/.html"/g' "$FILE"  | sed 's/\.png" a/.svg" a/g' | sed 's/ilink.svg/ilink.png/g' | sed 's/hashtag.svg/hashtag.png/g' | sed 's/freeplane2html.xsl/processhtml.sh/' > /tmp/$$
-
-    mv /tmp/$$ "$FILE"
-
+    sed 's/\.mm"/.html"/g' "$FILE"  | sed 's/\.png" a/.svg" a/g' | sed 's/ilink.svg/ilink.png/g' | sed 's/hashtag.svg/hashtag.png/g' | sed 's/freeplane2html.xsl/processhtml.sh/' > "$TMPFILE"
 
     IDS=$(grep 'href=..FMID' "$FILE" | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
 
@@ -34,22 +33,12 @@ do
         echo file: $FILE
         echo $ID
         echo $HREF
-        sed "s,#$ID,$HREF," "$FILE" > /tmp/$$
-        mv /tmp/$$ "$FILE"
+        sed "s,#$ID,$HREF," "$TMPFILE" > "$TMPFILE.tmp"
+        mv "$TMPFILE.tmp" "$TMPFILE"
       fi
-
-
-      # 2>&1 echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size:83%;"><a href="' > /dev/null
-      # #echo $?
-      # if [[ $? -eq 1 ]]
-      # then
-      #   echo $ID
-      #   echo $HREF
-      #   sed "s,#$ID,$HREF," "$FILE" > /tmp/$$
-      #   mv /tmp/$$ "$FILE"
-      # fi
       
     done
+    mv "$TMPFILE" "$FILE"
 
 done
 

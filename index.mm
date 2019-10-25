@@ -64,9 +64,10 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="make your own!" POSITION="right" ID="ID_1389208206" CREATED="1570293607657" MODIFIED="1570294749709">
+<node TEXT="Make your own!" POSITION="right" ID="ID_1389208206" CREATED="1570293607657" MODIFIED="1571993449165" COLOR="#000099">
 <icon BUILTIN="wizard"/>
 <edge COLOR="#ff0000"/>
+<font SIZE="12" BOLD="true"/>
 <node TEXT="fork this repo" ID="ID_1738668143" CREATED="1570293615063" MODIFIED="1570385431199" LINK="https://github.com/solidpayorg/webmaps/">
 <icon BUILTIN="full-1"/>
 </node>
@@ -94,7 +95,7 @@
 <icon BUILTIN="full-3"/>
 </node>
 </node>
-<node TEXT="one the command line run" ID="ID_668125997" CREATED="1570293641632" MODIFIED="1570385453495">
+<node TEXT="on the command line run" ID="ID_668125997" CREATED="1570293641632" MODIFIED="1571993529139">
 <icon BUILTIN="full-6"/>
 <node TEXT="bin/process.html" ID="ID_417353516" CREATED="1570293651983" MODIFIED="1570293659194"/>
 <node TEXT="bin/deploy" ID="ID_1316516546" CREATED="1570293660875" MODIFIED="1570293664489"/>

@@ -17,6 +17,13 @@ do
       continue
     fi
 
+    if [[ ! -s "$FILE" ]]
+    then
+      echo "continue"
+      continue
+    fi
+
+    echo "Processing $FILE"
 
     sed 's/\.mm"/.html"/g' "$FILE"  | sed 's/\.png" a/.svg" a/g' | sed 's/ilink.svg/ilink.png/g' | sed 's/hashtag.svg/hashtag.png/g' | sed 's/freeplane2html.xsl/processhtml.sh/' > "$TMPFILE"
 

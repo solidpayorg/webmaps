@@ -27,12 +27,10 @@ do
 
     sed 's/\.mm"/.html"/g' "$FILE"  | sed 's/\.png" a/.svg" a/g' | sed 's/ilink.svg/ilink.png/g' | sed 's/hashtag.svg/hashtag.png/g' | sed 's/freeplane2html.xsl/processhtml.sh/' > "$TMPFILE"
 
-    IDS=$(grep 'href=..FMID' "$FILE" | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
-
-    for ID in $(grep 'href=..FMID' "$FILE" | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
+    for ID in $(grep 'href=..FMID' "$TMPFILE" | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
     do
     
-      HREF=$(grep "\"$ID" "$FILE" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 
+      HREF=$(grep "\"$ID" "$TMPFILE" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 
        echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size'  >/dev/null 2>&1
 
       if [[ $? -eq 1 ]]

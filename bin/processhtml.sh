@@ -7,10 +7,17 @@ export TMPFILE="/tmp/$$"
 
 shopt -s globstar
 
-for FILE in **/*.html 
+if [[ $1 == "" ]]
+then 
+  FILE_LIST="**/*.html"
+else
+  FILE_LIST="$1"
+fi
+
+for FILE in $FILE_LIST
 do
 
-    2>&1 grep 'processhtml.sh' "$FILE" > /dev/null
+    2>&1 grep 'processhtml.sh--' "$FILE" > /dev/null
     if [[ $? -eq 0 ]]
     then
       echo "continue"
@@ -25,12 +32,12 @@ do
 
     echo "Processing $FILE"
 
-    sed 's/\.mm"/.html"/g' "$FILE"  | sed 's/\.png" a/.svg" a/g' | sed 's/ilink.svg/ilink.png/g' | sed 's/hashtag.svg/hashtag.png/g' | sed 's/freeplane2html.xsl/processhtml.sh/' > "$TMPFILE"
+    TMPVAR=$(sed -f "$(dirname "$0")/processhtml.sed" "$FILE")
 
-    for ID in $(grep 'href=..FMID' "$TMPFILE" | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
+    for ID in $(echo $TMPVAR | grep 'href=..FMID' | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
     do
     
-      HREF=$(grep "\"$ID" "$TMPFILE" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 
+      HREF=$(echo "$TMPVAR" | grep "\"$ID" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 
        echo $HREF | grep '<div class="nodecontent" style="color:#000000;font-size'  >/dev/null 2>&1
 
       if [[ $? -eq 1 ]]
@@ -38,12 +45,11 @@ do
         echo file: $FILE
         echo $ID
         echo $HREF
-        sed "s,#$ID,$HREF," "$TMPFILE" > "$TMPFILE.tmp"
-        mv "$TMPFILE.tmp" "$TMPFILE"
+        TMPVAR=$(echo "$TMPVAR" | sed "s,#$ID,$HREF,")
       fi
       
     done
-    mv "$TMPFILE" "$FILE"
+    echo "$TMPVAR" > "$FILE"
 
 done
 

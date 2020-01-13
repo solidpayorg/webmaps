@@ -34,7 +34,7 @@ do
 
     TMPVAR=$(sed -f "$(dirname "$0")/processhtml.sed" "$FILE")
 
-    for ID in $(echo $TMPVAR | grep 'href=..FMID' | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
+    for ID in $(echo "$TMPVAR" | grep 'href=..FMID' | sed 's/.*"#\(FMID[^"]*\)".*/\1/')
     do
     
       HREF=$(echo "$TMPVAR" | grep "\"$ID" | sed "s/.*\($ID\)\"..[^/]*href=.\([^\"]*\)\".*/\2/") 

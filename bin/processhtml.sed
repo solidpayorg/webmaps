@@ -1,5 +1,4 @@
 s/\.mm"/.html"/g
-s/\.png" a/.svg" a/g
 
 s/\(0%\).png/\1.svg/g
 s/\(100%\).png/\1.svg/g
@@ -61,7 +60,6 @@ s/\(group\).png/\1.svg/g
 s/\(help\).png/\1.svg/g
 s/\(hourglass\).png/\1.svg/g
 s/\(idea\).png/\1.svg/g
-s/\(image\).png/\1.svg/g
 s/\(info\).png/\1.svg/g
 s/\(internet\).png/\1.svg/g
 s/\(internet_warning\).png/\1.svg/g
@@ -72,6 +70,7 @@ s/\(korn\).png/\1.svg/g
 s/\(ksmiletris\).png/\1.svg/g
 s/\(launch\).png/\1.svg/g
 s/\(licq\).png/\1.svg/g
+s/\(lightning\).png/\1.svg/g
 s/\(list\).png/\1.svg/g
 s/\(Mail\).png/\1.svg/g
 s/\(male1\).png/\1.svg/g
@@ -109,7 +108,4 @@ s/\(wizard\).png/\1.svg/g
 s/\(xmag\).png/\1.svg/g
 s/\(yes\).png/\1.svg/g
 
-
-s/ilink.svg/ilink.png/g
-s/hashtag.svg/hashtag.png/g
 s/freeplane2html.xsl/processhtml.sh/

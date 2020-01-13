@@ -63,11 +63,11 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Make your own!" POSITION="right" ID="ID_1389208206" CREATED="1570293607657" MODIFIED="1571993449165" COLOR="#000099">
 <icon BUILTIN="wizard"/>
-<edge COLOR="#ff0000"/>
 <font SIZE="12" BOLD="true"/>
+<edge COLOR="#ff0000"/>
 <node TEXT="fork this repo" ID="ID_1738668143" CREATED="1570293615063" MODIFIED="1570385431199" LINK="https://github.com/solidpayorg/webmaps/">
 <icon BUILTIN="full-1"/>
 </node>
@@ -106,6 +106,21 @@
 <node TEXT="it will be at &lt;username&gt;.github.io/webmaps" ID="ID_791049591" CREATED="1570294771137" MODIFIED="1570294799091"/>
 </node>
 </node>
+</node>
+<node POSITION="left" ID="ID_1974475433" CREATED="1578928125418" MODIFIED="1578928457614" LINK="https://webapps.io/" COLOR="#000099"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    Made with <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none"/>&#160;using webapps.io
+  </body>
+</html>
+
+</richcontent>
+<font SIZE="10" BOLD="true"/>
+<edge COLOR="#ff00ff"/>
 </node>
 <node TEXT="star this repo" POSITION="left" ID="ID_634574866" CREATED="1570294548787" MODIFIED="1570294809542" LINK="https://github.com/solidpayorg/webmaps/">
 <icon BUILTIN="bookmark"/>

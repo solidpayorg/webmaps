@@ -356,7 +356,7 @@
                     "@_POSITION": "left",
                     "@_ID": "ID_1974475433",
                     "@_CREATED": 1578928125418,
-                    "@_MODIFIED": 1578928457614,
+                    "@_MODIFIED": 1578930147771,
                     "@_LINK": "https://webapps.io/",
                     "@_COLOR": "#000099",
                     "richcontent": {
@@ -364,7 +364,7 @@
                         "html": {
                             "head": "",
                             "body": {
-                                "#text": "Made with&#160;using webapps.io",
+                                "#text": "Made with&#160;using webmaps.io",
                                 "img": {
                                     "@_class": "emoji",
                                     "@_alt": "heart",

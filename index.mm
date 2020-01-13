@@ -107,14 +107,14 @@
 </node>
 </node>
 </node>
-<node POSITION="left" ID="ID_1974475433" CREATED="1578928125418" MODIFIED="1578928457614" LINK="https://webapps.io/" COLOR="#000099"><richcontent TYPE="NODE">
+<node POSITION="left" ID="ID_1974475433" CREATED="1578928125418" MODIFIED="1578930147771" LINK="https://webapps.io/" COLOR="#000099"><richcontent TYPE="NODE">
 
 <html>
   <head>
     
   </head>
   <body>
-    Made with <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none"/>&#160;using webapps.io
+    Made with <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none"/>&#160;using webmaps.io
   </body>
 </html>
 

@@ -117,7 +117,6 @@
     Made with <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" style="border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none"/>&#160;using webmaps.io
   </body>
 </html>
-
 </richcontent>
 <font SIZE="10" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
@@ -129,18 +128,11 @@
 <node TEXT="examples" POSITION="left" ID="ID_428021122" CREATED="1570295118138" MODIFIED="1570448748245">
 <icon BUILTIN="button_ok"/>
 <edge COLOR="#00ff00"/>
-<node ID="ID_1055482545" CREATED="1570295130322" MODIFIED="1570295130322" LINK="https://lightning.money/"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <a http-equiv="content-type" content="text/html; charset=utf-8" href="https://lightning.money/">https://lightning.money/</a> 
-  </body>
-</html>
-</richcontent>
-</node>
+<node TEXT="lightning money" ID="ID_1055482545" CREATED="1570295130322" MODIFIED="1578930413178" LINK="https://lightning.money/"/>
+<node TEXT="tech" ID="ID_1011225188" CREATED="1578930396973" MODIFIED="1578930427154" LINK="https://melvincarvalho.github.io/tech/"/>
+<node TEXT="JavaScript" ID="ID_519815630" CREATED="1578930429248" MODIFIED="1578930439061" LINK="https://melvincarvalho.github.io/JavaScript/index.html"/>
+<node TEXT="solid" ID="ID_1078437809" CREATED="1578930494968" MODIFIED="1578930498036" LINK="https://melvincarvalho.github.io/solid/index.html"/>
+<node TEXT="markbook" ID="ID_773439063" CREATED="1578930519967" MODIFIED="1578930526171" LINK="https://mark-book.github.io/markbook/webmaps/index.html"/>
 <node TEXT="more" ID="ID_1185474668" CREATED="1570475388941" MODIFIED="1570475395867" LINK="examples/index.mm"/>
 </node>
 </node>

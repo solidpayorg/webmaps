@@ -30,7 +30,15 @@
 <#ID_1974475433> <urn:string:@_TEXT> """undefined""" .
 <#ID_634574866> <urn:string:@_TEXT> """star this repo""" .
 <#ID_428021122> <urn:string:@_TEXT> """examples""" .
-<#ID_1055482545> <urn:string:@_TEXT> """undefined""" .
+<#ID_1055482545> <urn:string:@_TEXT> """lightning money""" .
 <#ID_1055482545> <urn:string:child> <ID_1055482545> .
+<#ID_1011225188> <urn:string:@_TEXT> """tech""" .
+<#ID_1011225188> <urn:string:child> <ID_1011225188> .
+<#ID_519815630> <urn:string:@_TEXT> """JavaScript""" .
+<#ID_519815630> <urn:string:child> <ID_519815630> .
+<#ID_1078437809> <urn:string:@_TEXT> """solid""" .
+<#ID_1078437809> <urn:string:child> <ID_1078437809> .
+<#ID_773439063> <urn:string:@_TEXT> """markbook""" .
+<#ID_773439063> <urn:string:child> <ID_773439063> .
 <#ID_1185474668> <urn:string:@_TEXT> """more""" .
 <#ID_1185474668> <urn:string:child> <ID_1185474668> .

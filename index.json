@@ -186,7 +186,7 @@
                 },
                 {
                     "@_NAME": "AutomaticEdgeColor",
-                    "@_COUNTER": 4,
+                    "@_COUNTER": 5,
                     "@_RULE": "ON_BRANCH_CREATION"
                 }
             ],
@@ -382,6 +382,18 @@
                     },
                     "edge": {
                         "@_COLOR": "#ff00ff"
+                    }
+                },
+                {
+                    "@_TEXT": "view presentation",
+                    "@_LOCALIZED_STYLE_REF": "AutomaticLayout.level,1",
+                    "@_POSITION": "left",
+                    "@_ID": "ID_1471409505",
+                    "@_CREATED": 1579443715474,
+                    "@_MODIFIED": 1579443750838,
+                    "@_LINK": "docs/mindmaps.mm",
+                    "edge": {
+                        "@_COLOR": "#00ffff"
                     }
                 },
                 {

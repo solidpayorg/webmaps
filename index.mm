@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Make your own!" POSITION="right" ID="ID_1389208206" CREATED="1570293607657" MODIFIED="1571993449165" COLOR="#000099">
 <icon BUILTIN="wizard"/>
 <font SIZE="12" BOLD="true"/>
@@ -120,6 +120,9 @@
 </richcontent>
 <font SIZE="10" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
+</node>
+<node TEXT="view presentation" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1471409505" CREATED="1579443715474" MODIFIED="1579443750838" LINK="docs/mindmaps.mm">
+<edge COLOR="#00ffff"/>
 </node>
 <node TEXT="star this repo" POSITION="left" ID="ID_634574866" CREATED="1570294548787" MODIFIED="1570294809542" LINK="https://github.com/solidpayorg/webmaps/">
 <icon BUILTIN="bookmark"/>

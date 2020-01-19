@@ -1,0 +1,392 @@
+{
+    "map": {
+        "@_version": "freeplane 1.7.0",
+        "node": {
+            "@_TEXT": "mindmaps",
+            "@_FOLDED": false,
+            "@_ID": "ID_379023905",
+            "@_CREATED": 1569782968766,
+            "@_MODIFIED": 1579443365722,
+            "@_LINK": "index.mm",
+            "@_STYLE": "oval",
+            "edge": {
+                "@_STYLE": "bezier",
+                "@_COLOR": "#7c007c",
+                "@_WIDTH": "thin",
+                "@_DASH": "SOLID"
+            },
+            "hook": [
+                {
+                    "@_NAME": "MapStyle",
+                    "properties": {
+                        "@_edgeColorConfiguration": "#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff",
+                        "@_fit_to_viewport": false
+                    },
+                    "map_styles": {
+                        "stylenode": {
+                            "@_LOCALIZED_TEXT": "styles.root_node",
+                            "@_STYLE": "oval",
+                            "@_UNIFORM_SHAPE": true,
+                            "@_VGAP_QUANTITY": "24.0 pt",
+                            "font": {
+                                "@_SIZE": 24
+                            },
+                            "stylenode": [
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.predefined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "default",
+                                            "@_ICON_SIZE": "12.0 pt",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "SansSerif",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": false,
+                                                "@_ITALIC": false
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.details"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.attributes",
+                                            "font": {
+                                                "@_SIZE": 9
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.note",
+                                            "@_COLOR": "#000000",
+                                            "@_BACKGROUND_COLOR": "#ffffff",
+                                            "@_TEXT_ALIGN": "LEFT"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "defaultstyle.floating",
+                                            "edge": {
+                                                "@_STYLE": "hide_edge"
+                                            },
+                                            "cloud": {
+                                                "@_COLOR": "#f0f0f0",
+                                                "@_SHAPE": "ROUND_RECT"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.user-defined",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.topic",
+                                            "@_COLOR": "#18898b",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subtopic",
+                                            "@_COLOR": "#cc3300",
+                                            "@_STYLE": "fork",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.subsubtopic",
+                                            "@_COLOR": "#669900",
+                                            "font": {
+                                                "@_NAME": "Liberation Sans",
+                                                "@_SIZE": 10,
+                                                "@_BOLD": true
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "styles.important",
+                                            "icon": {
+                                                "@_BUILTIN": "yes"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@_LOCALIZED_TEXT": "styles.AutomaticLayout",
+                                    "@_POSITION": "right",
+                                    "@_STYLE": "bubble",
+                                    "stylenode": [
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level.root",
+                                            "@_COLOR": "#000000",
+                                            "@_STYLE": "oval",
+                                            "@_SHAPE_HORIZONTAL_MARGIN": "10.0 pt",
+                                            "@_SHAPE_VERTICAL_MARGIN": "10.0 pt",
+                                            "font": {
+                                                "@_SIZE": 18
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,1",
+                                            "@_COLOR": "#0033ff",
+                                            "font": {
+                                                "@_SIZE": 16
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,2",
+                                            "@_COLOR": "#00b439",
+                                            "font": {
+                                                "@_SIZE": 14
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,3",
+                                            "@_COLOR": "#990000",
+                                            "font": {
+                                                "@_SIZE": 12
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,4",
+                                            "@_COLOR": "#111111",
+                                            "font": {
+                                                "@_SIZE": 10
+                                            }
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,5"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,6"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,7"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,8"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,9"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,10"
+                                        },
+                                        {
+                                            "@_LOCALIZED_TEXT": "AutomaticLayout.level,11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@_NAME": "AutomaticEdgeColor",
+                    "@_COUNTER": 14,
+                    "@_RULE": "ON_BRANCH_CREATION"
+                }
+            ],
+            "font": {
+                "@_SIZE": 18
+            },
+            "node": [
+                {
+                    "@_TEXT": "Software",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_466531788",
+                    "@_CREATED": 1579442908856,
+                    "@_MODIFIED": 1579443029828,
+                    "edge": {
+                        "@_COLOR": "#007c7c"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Mindmaps are created using the desktop app freeplane",
+                            "@_ID": "ID_1487889840",
+                            "@_CREATED": 1579442916695,
+                            "@_MODIFIED": 1579442938886
+                        },
+                        {
+                            "@_TEXT": "Download it here",
+                            "@_ID": "ID_1358046872",
+                            "@_CREATED": 1579442955647,
+                            "@_MODIFIED": 1579442958218
+                        },
+                        {
+                            "@_ID": "ID_1209244642",
+                            "@_CREATED": 1579442964557,
+                            "@_MODIFIED": 1579442964557,
+                            "@_LINK": "https://sourceforge.net/projects/freeplane/",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://sourceforge.net/projects/freeplane/",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://sourceforge.net/projects/freeplane/"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "Create",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1669457890",
+                    "@_CREATED": 1579442969564,
+                    "@_MODIFIED": 1579443029242,
+                    "edge": {
+                        "@_COLOR": "#7c7c00"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Base mind maps are crated using the desktop sofware",
+                            "@_ID": "ID_1462942176",
+                            "@_CREATED": 1579442981688,
+                            "@_MODIFIED": 1579443002922
+                        },
+                        {
+                            "@_TEXT": "Intuitive user interface gets you started quicky creating mind maps",
+                            "@_ID": "ID_1170903995",
+                            "@_CREATED": 1579443004604,
+                            "@_MODIFIED": 1579443019996
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "Publish",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1387369191",
+                    "@_CREATED": 1579443021324,
+                    "@_MODIFIED": 1579443028578,
+                    "edge": {
+                        "@_COLOR": "#ff0000"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "Mind maps are published using the patterns at webmaps.io",
+                            "@_ID": "ID_1977216947",
+                            "@_CREATED": 1579443032002,
+                            "@_MODIFIED": 1579443320693
+                        },
+                        {
+                            "@_ID": "ID_963916441",
+                            "@_CREATED": 1579443051438,
+                            "@_MODIFIED": 1579443051438,
+                            "@_LINK": "https://webmaps.io/",
+                            "richcontent": {
+                                "@_TYPE": "NODE",
+                                "html": {
+                                    "head": "",
+                                    "body": {
+                                        "a": {
+                                            "#text": "https://webmaps.io/",
+                                            "@_http-equiv": "content-type",
+                                            "@_content": "text/html; charset=utf-8",
+                                            "@_href": "https://webmaps.io/"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "@_TEXT": "Can export to HTML",
+                            "@_ID": "ID_727557840",
+                            "@_CREATED": 1579443054728,
+                            "@_MODIFIED": 1579443059218
+                        },
+                        {
+                            "@_TEXT": "Can then publish to a web server, e.g. using rsync",
+                            "@_ID": "ID_1758466931",
+                            "@_CREATED": 1579443060915,
+                            "@_MODIFIED": 1579443332331
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "Slides",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_1592562658",
+                    "@_CREATED": 1579443098296,
+                    "@_MODIFIED": 1579443104964,
+                    "edge": {
+                        "@_COLOR": "#0000ff"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "It is possible to turn a mind map into slides",
+                            "@_ID": "ID_675897023",
+                            "@_CREATED": 1579443106941,
+                            "@_MODIFIED": 1579443114832
+                        },
+                        {
+                            "@_TEXT": "mindslide",
+                            "@_ID": "ID_1580713250",
+                            "@_CREATED": 1579443131608,
+                            "@_MODIFIED": 1579443193365,
+                            "@_LINK": "http://berteh.github.io/mindslide/#/ID_1723255651"
+                        },
+                        {
+                            "@_TEXT": "Mindslide is used to create presentations",
+                            "@_ID": "ID_1135894441",
+                            "@_CREATED": 1579443194378,
+                            "@_MODIFIED": 1579443207518
+                        }
+                    ]
+                },
+                {
+                    "@_TEXT": "Automate",
+                    "@_POSITION": "right",
+                    "@_ID": "ID_567201254",
+                    "@_CREATED": 1579443155420,
+                    "@_MODIFIED": 1579443159531,
+                    "edge": {
+                        "@_COLOR": "#00ff00"
+                    },
+                    "font": {
+                        "@_BOLD": true
+                    },
+                    "node": [
+                        {
+                            "@_TEXT": "TODO",
+                            "@_ID": "ID_804280246",
+                            "@_CREATED": 1579443160801,
+                            "@_MODIFIED": 1579443175215
+                        },
+                        {
+                            "@_TEXT": "Describe automation process for manual steps",
+                            "@_ID": "ID_629481915",
+                            "@_CREATED": 1579443176421,
+                            "@_MODIFIED": 1579443186253
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

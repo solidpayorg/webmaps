@@ -1,0 +1,33 @@
+<#ID_466531788> <urn:string:@_TEXT> """Software""" .
+<#ID_1487889840> <urn:string:@_TEXT> """Mindmaps are created using the desktop app freeplane""" .
+<#ID_1487889840> <urn:string:child> <ID_1487889840> .
+<#ID_1358046872> <urn:string:@_TEXT> """Download it here""" .
+<#ID_1358046872> <urn:string:child> <ID_1358046872> .
+<#ID_1209244642> <urn:string:@_TEXT> """undefined""" .
+<#ID_1209244642> <urn:string:child> <ID_1209244642> .
+<#ID_1669457890> <urn:string:@_TEXT> """Create""" .
+<#ID_1462942176> <urn:string:@_TEXT> """Base mind maps are crated using the desktop sofware""" .
+<#ID_1462942176> <urn:string:child> <ID_1462942176> .
+<#ID_1170903995> <urn:string:@_TEXT> """Intuitive user interface gets you started quicky creating mind maps""" .
+<#ID_1170903995> <urn:string:child> <ID_1170903995> .
+<#ID_1387369191> <urn:string:@_TEXT> """Publish""" .
+<#ID_1977216947> <urn:string:@_TEXT> """Mind maps are published using the patterns at webmaps.io""" .
+<#ID_1977216947> <urn:string:child> <ID_1977216947> .
+<#ID_963916441> <urn:string:@_TEXT> """undefined""" .
+<#ID_963916441> <urn:string:child> <ID_963916441> .
+<#ID_727557840> <urn:string:@_TEXT> """Can export to HTML""" .
+<#ID_727557840> <urn:string:child> <ID_727557840> .
+<#ID_1758466931> <urn:string:@_TEXT> """Can then publish to a web server, e.g. using rsync""" .
+<#ID_1758466931> <urn:string:child> <ID_1758466931> .
+<#ID_1592562658> <urn:string:@_TEXT> """Slides""" .
+<#ID_675897023> <urn:string:@_TEXT> """It is possible to turn a mind map into slides""" .
+<#ID_675897023> <urn:string:child> <ID_675897023> .
+<#ID_1580713250> <urn:string:@_TEXT> """mindslide""" .
+<#ID_1580713250> <urn:string:child> <ID_1580713250> .
+<#ID_1135894441> <urn:string:@_TEXT> """Mindslide is used to create presentations""" .
+<#ID_1135894441> <urn:string:child> <ID_1135894441> .
+<#ID_567201254> <urn:string:@_TEXT> """Automate""" .
+<#ID_804280246> <urn:string:@_TEXT> """TODO""" .
+<#ID_804280246> <urn:string:child> <ID_804280246> .
+<#ID_629481915> <urn:string:@_TEXT> """Describe automation process for manual steps""" .
+<#ID_629481915> <urn:string:child> <ID_629481915> .

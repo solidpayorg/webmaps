@@ -121,7 +121,7 @@
 <font SIZE="10" BOLD="true"/>
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="view presentation" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1471409505" CREATED="1579443715474" MODIFIED="1579443750838" LINK="docs/mindmaps.mm">
+<node TEXT="view presentation" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="left" ID="ID_1471409505" CREATED="1579443715474" MODIFIED="1579443821712" LINK="docs/mindmaps.ppt.html">
 <edge COLOR="#00ffff"/>
 </node>
 <node TEXT="star this repo" POSITION="left" ID="ID_634574866" CREATED="1570294548787" MODIFIED="1570294809542" LINK="https://github.com/solidpayorg/webmaps/">
